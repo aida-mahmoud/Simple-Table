@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task4</title>
+    <style>
+        table{
+            width: 500px;
+            border: 2px solid black; 
+            margin: 20px;
+        }
+        button{
+            padding: 10px;
+            margin: 2px;
+            background-color: #00cec9;
+            border-radius: 10px;
+            font-size: 25px;
+        }
+        tr{
+            border-right: 1px solid black;
+        }
+        th ,td{
+            border: 1px solid black; 
+            font-size: 20px;
+            text-align: center;
+            color: #2d3436;
+        }
+        label{
+            font-size: 20px;
+        }
+        input{
+            width: 200px;
+            height: 50px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    
+            <label>Name : </label><input type="text" placeholder="Enter Your Name" id="name">
+            <label>Age : </label><input type="number" placeholder="Enter Your Age" id="age">
+            <label>Departement : </label><input type="text"  placeholder="Enter Your Departement" id="dep">
+            <button type="button" id="add">Add</button>
+          <!--  <input type="button" value="Add" id="add">-->
+            
+    
+   
+    <table id="mytable">
+       <tr>
+           <th>num</th>
+           <th>Name</th>
+            <th>Age</th>
+            <th>Departement</th>
+            <th> Actions</th>
+        
+       </tr> 
+      
+        
+    </table>
+    <script src="task4.js"></script>
+</body>
+</html>
